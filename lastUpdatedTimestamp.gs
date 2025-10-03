@@ -1,3 +1,10 @@
+/**
+ * Project: COMPANY-1 @DIRECTORY
+ * Script Purpose: Automatically maintains the timestamp in the 'LAST_UPDATED' column whenever the sheet is edited
+ * Author: COMPANY-1 (Reignsound)
+ * Last Updated: 2025-10-03
+ */
+
 function updateLastUpdatedTimestamp(e) {
   // GET the active sheet
   const sheet = e.source.getActiveSheet();
