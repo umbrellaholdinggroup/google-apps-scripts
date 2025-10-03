@@ -3,6 +3,8 @@
  * Script Purpose: Automatically maintains the timestamp in the 'LAST_UPDATED' column whenever the sheet is edited
  * Author: COMPANY-1 (Reignsound)
  * Last Updated: 2025-10-03
+ * Trigger: onEdit
+ * Type: Trigger Functino
  */
 
 function updateLastUpdatedTimestamp(e) {
